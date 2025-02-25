@@ -21,7 +21,7 @@ Processing:
       Linear_Interpolation:
         # *** DOUBLE CHECK VARIABLE NAMES ON RHS MATCH SECOND STAGE TRACE NAMES ***
         Fill_Vars: TA_1_1_1,RH_1_1_1,VPD_1_1_1
-    Standard_cleaning:
+    Standard_Cleaning:
       # Filter out values  #+/- wakeFilter of northOffset +/- 180 degrees
       wakeFilter: 30
       # If you do not want fluxes filtered during rain events, set to NULL
